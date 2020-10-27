@@ -103,5 +103,21 @@
 		   "> $0"
 		 ],
 		 "description": "> greater"
+	},
+
+	">= (greater or equal)": {
+		"prefix": "ge",
+		"body": [
+			">= $0"
+		],
+		"description": ">= (greater or equal)"
+	},
+
+	"<= (less or equal)": {
+		"prefix": "le",
+		"body": [
+			"<= $0"
+		],
+		"description": "<= (less or equal)"
 	}
 }
