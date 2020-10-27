@@ -85,5 +85,13 @@
 			"{$1}$0"
 		],
 		"description": "{} curly brace"
+	},
+	
+	"> greater": {
+		 "prefix": "g",
+		 "body": [
+		   "> $0"
+		 ],
+		 "description": "> greater"
 	}
 }
