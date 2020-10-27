@@ -1,0 +1,89 @@
+{
+	"if statement": {
+		"prefix": "if",
+		"body": [
+			"if (${1:condition}) {",
+			"  $0",
+			"}"
+		],
+		"description": "if statement"
+	},
+
+	"else statement": {
+		"prefix": "else",
+		"body": [
+			"else {",
+			"  $0",
+			"}"
+		],
+		"description": "else statement"
+	},
+
+	"if else statement": {
+		"prefix": "ifel",
+		"body": [
+			"if (${1:condition}) {",
+			"  $2",
+			"} else {",
+			"  $0",
+			"}"
+		],
+		"description": "if else statement"
+	},
+
+	"or": {
+		"prefix": "or",
+		"body": [
+			"|| $0"
+		],
+		"description": "or"
+	},
+
+	"and": {
+		"prefix": "and",
+		"body": [
+			"&& $0"
+		],
+		"description": "and"
+	},
+
+	"!= (not equal)": {
+		"prefix": "ne",
+		"body": [
+			"!= $0"
+		],
+		"description": "!= (not equal)"
+	},
+
+	"=== (equal)": {
+		"prefix": "eq",
+		"body": [
+			"=== $0"
+		],
+		"description": "=== (equal)"
+	},
+
+	"[] square bracket": {
+		"prefix": "sb",
+		"body": [
+			"[$1]$0"
+		],
+		"description": "[] square bracket"
+	},
+
+	"() bracket": {
+		"prefix": "b",
+		"body": [
+			"($1)$0"
+		],
+		"description": "() bracket"
+	},
+
+	"{} curly brace": {
+		"prefix": "cb",
+		"body": [
+			"{$1}$0"
+		],
+		"description": "{} curly brace"
+	}
+}
